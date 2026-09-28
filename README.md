@@ -1,16 +1,20 @@
 # LynxOffice MCP Server for Mac
 
-LynxOffice offers an MCP server that lets AI agents read, edit and convert Word, Excel, PowerPoint and PDF files on your Mac.
+LynxOffice offers an MCP server that lets AI agents read, edit and review Word, Excel, PowerPoint and PDF files on your Mac.
 
-> **Status:** not released yet. Signed and notarized builds will be published under [Releases](https://github.com/LynxOffice/lynxoffice-mcp-mac/releases) with the first release.
-
-## Install (from the first release)
+## Install
 
 ```bash
 brew install lynxoffice/tap/lynxoffice-mcp
 ```
 
-Requires macOS 14 or later.
+Then point your MCP client at it, for example:
+
+```bash
+claude mcp add lynxoffice -- "$(brew --prefix)/bin/lynxoffice-mcp"
+```
+
+Requires macOS 14 or later, on Apple silicon or Intel. Each build under [Releases](https://github.com/LynxOffice/lynxoffice-mcp-mac/releases) is signed with KDAN's Developer ID and notarized by Apple.
 
 ---
 
