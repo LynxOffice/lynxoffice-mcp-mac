@@ -2,6 +2,8 @@
 
 LynxOffice offers an MCP server that lets AI agents read, edit and review Word, Excel, PowerPoint and PDF files on your Mac.
 
+For PDFs, it reports the page count and whether a file has a text layer, merges and splits files, and makes password-protected copies. To annotate, redact or sign a PDF yourself, use the [LynxOffice PDF editor](https://lynxoffice.com/pdf/) on your Mac.
+
 ## Install
 
 ```bash
